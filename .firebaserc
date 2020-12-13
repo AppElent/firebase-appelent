@@ -1,0 +1,20 @@
+{
+  "projects": {
+    "default": "app-elent"
+  },
+  "targets": {
+    "app-elent": {
+      "hosting": {
+        "app-elent": [
+          "app-elent"
+        ],
+        "testapp2": [
+          "appelent-testapp2"
+        ],
+        "administratie": [
+          "appelent-administratie"
+        ]
+      }
+    }
+  }
+}
