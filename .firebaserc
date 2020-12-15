@@ -13,6 +13,9 @@
         ],
         "administratie": [
           "appelent-administratie"
+        ],
+        "energy": [
+          "appelent-energy"
         ]
       }
     }

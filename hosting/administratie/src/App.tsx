@@ -34,14 +34,15 @@ validate.validators = {
 /**
  * Firebase configuration.
  */
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: 'AIzaSyCCyQmkLU5UFKg7C4mqEvTw0QaVZ5ZWKyU',
-  authDomain: 'administratie-app.firebaseapp.com',
-  databaseURL: 'https://administratie-app.firebaseio.com',
-  projectId: 'administratie-app',
-  storageBucket: 'administratie-app.appspot.com',
-  messagingSenderId: '909589468874',
-  appId: '1:909589468874:web:25a83d1464dd94f0',
+  apiKey: "AIzaSyDf6WbdUN-SjSPRKWrjJAs3VQLYxhJ_N2w",
+  authDomain: "app-elent.firebaseapp.com",
+  projectId: "app-elent",
+  storageBucket: "app-elent.appspot.com",
+  messagingSenderId: "940844938383",
+  appId: "1:940844938383:web:433f3eb346cb28d63aecfa",
+  measurementId: "G-LD3KJRT561"
 };
 firebase.initializeApp(firebaseConfig);
 
