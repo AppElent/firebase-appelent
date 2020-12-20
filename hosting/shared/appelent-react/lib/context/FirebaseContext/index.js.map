@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sourceRoot":"","sources":["../../../src/context/FirebaseContext/index.ts"],"names":[],"mappings":"AAAA,QAAQ;AACR,OAAO,KAAK,EAAE,EAAE,UAAU,EAAE,MAAM,OAAO,CAAC;AAE1C,MAAM,CAAC,IAAM,eAAe,GAAG,KAAK,CAAC,aAAa,CAAC,EAAE,CAAC,CAAC;AAEvD,MAAM,CAAC,IAAM,UAAU,GAAG,cAAW,OAAA,UAAU,CAAC,eAAe,CAAC,EAA3B,CAA2B,CAAC,CAAC,sBAAsB;AAExF,eAAe,eAAe,CAAC"}

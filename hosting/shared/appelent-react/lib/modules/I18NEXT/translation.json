@@ -1,0 +1,32 @@
+{
+    "en": {
+        "common": {
+            "greet": "Hello",
+            "greetName": "Hello {{name}}",
+            "buttons": {
+                "cancel": "Cancel",
+                "save": "Save",
+                "login": "Login",
+                "logout": "Logout",
+                "new": "New",
+                "connect": "Connect",
+                "delete": "Delete"
+            }
+        }
+    },
+    "nl": {
+        "common": {
+            "greet": "Hallo",
+            "greetName": "Hallo {{name}}",
+            "buttons": {
+                "cancel": "Annuleer",
+                "save": "Sla op",
+                "login": "Log in",
+                "logout": "Log uit",
+                "new": "Nieuw",
+                "connect": "Verbind",
+                "delete": "Verwijder"
+            }
+        }
+    }
+}

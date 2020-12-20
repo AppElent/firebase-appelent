@@ -1,0 +1,40 @@
+{
+  "name": "",
+  "version": "0.0.1",
+  "description": "React Boilerplate Component for npm",
+  "main": "lib/index.js",
+  "module": "lib/index.es.js",
+  "jsnext:main": "lib/index.es.js",
+  "license": "MIT",
+  "files": [
+    "lib/**/*"
+  ],
+  "keywords": [],
+  "author": "",
+  "scripts": {
+    "type-check": "tsc --noEmit",
+    "type-check:watch": "npm run type-check -- --watch",
+    "build": "npm run lint:fix && rollup -c",
+    "lint": "eslint --ext=jsx,ts,tsx,js src",
+    "lint:fix": "eslint --ext=jsx,ts,tsx,js src --fix",
+    "prepublishOnly": "npm run lint && npm run build",
+    "test": "jest --config jestconfig.json --passWithNoTests",
+    "check-dependencies": "npx depcheck",
+    "init:typescript": "npm i -D typescript",
+    "init:testing": "npm i -D ts-jest jest @types/jest",
+    "init:rollup": "npm i -D rollup rollup-plugin-typescript2 rollup-plugin-commonjs  rollup-plugin-peer-deps-external rollup-plugin-node-resolve",
+    "init:react": "npm i -D react-dom react @types/react-dom @types/react",
+    "init:linting": "npm i -D eslint eslint-plugin-react @typescript-eslint/parser @typescript-eslint/eslint-plugin",
+    "init:prettier": "npm i -D prettier eslint-config-prettier eslint-plugin-prettier",
+    "init:all": "npm run init:typescript && npm run init:testing && npm run init:rollup && npm run init:react && npm run init:linting && npm run init:prettier"
+  },
+  "peerDependencies": {
+    "prop-types": "^15.6.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node"
+  }
+}
